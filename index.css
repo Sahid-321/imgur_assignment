@@ -1,0 +1,103 @@
+.headIcons{
+    display: flex;
+   
+ 
+    height: 300px;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+.img{
+    display: flex;
+    flex-direction:column ;
+
+  margin-top: 40px;
+    width: 200px;
+    height: 120px;
+}
+
+
+.img:hover{
+    display: flex;
+    flex-direction:column ;
+
+  
+    width: 210px;
+    height: 120px;
+}
+
+.img > p{
+    position: absolute;
+margin-top: 7%;
+margin-left: 2%;
+ 
+}
+#container{
+    background-image: url("https://robotech.com/_images/content/RobotechSocial2.png");
+
+    padding: 30px;
+
+}
+
+#parent{
+    display: grid;
+padding: 20px;
+place-items: center;
+
+}
+#inp{
+    width: 500px;
+    height: 34px;
+    border-radius: 5px;
+    border: 1px white;
+}
+#form{
+    width: 700px;
+    height: 34px;
+    border-radius: 5px;
+    display: flex;
+    border: 1px white;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+#nav{
+    width: 100px;
+
+    display: flex;
+  
+    gap: 40px;
+ 
+}
+#nav>img{
+    color: beige;
+
+    width: 100px;
+    height: 33px;
+ 
+}
+h3{
+    color: white;
+}
+
+.imgContainer{
+  display: flex;
+ 
+  padding: 0 4px;
+background-color: rgb(65, 64, 63);
+ 
+  
+}
+.column{
+  
+ flex: 50%;
+   
+display: grid;
+grid-template-columns: repeat(3,1fr);
+
+gap: 5px;
+}
+.column img{
+
+    margin-top: 8px;
+  
+}
